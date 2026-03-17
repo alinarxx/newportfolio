@@ -1,0 +1,79 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #eef2ff, #dbeafe);
+  color: #333;
+}
+
+/* Banner */
+.banner {
+  background-image: url("banners.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.banner h1 {
+  font-size: 40px;
+  text-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+/* Navigation */
+nav {
+  background: #074ee7;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
+
+nav li {
+  margin: 15px 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #a5b4fc;
+}
+
+/* Main Section */
+section {
+  max-width: 900px;
+  margin: 50px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+section h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #555;}
